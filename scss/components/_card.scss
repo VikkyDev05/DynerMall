@@ -7,6 +7,7 @@
 
     .features-item {
         padding: 10px;
+        margin: 0.5rem 0;
 
         .small-heading {
             padding-bottom: 10px;
@@ -27,4 +28,21 @@
 
 .outro {
     margin: 2rem 0;
+}
+
+.learn-more {
+    background: lightpink;
+    text-align: center;
+
+    .small-heading {
+        padding: 10px 0;
+    }
+
+    .primary-btn {
+        background: inherit;
+        margin: 10px 0;
+        border: 1px solid orangered;
+        color: orangered;
+        margin-bottom: 4rem;
+    }
 }

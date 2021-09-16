@@ -110,7 +110,8 @@ button {
   background: lightpink; }
 
 .features .features-item {
-  padding: 10px; }
+  padding: 10px;
+  margin: 0.5rem 0; }
   .features .features-item .small-heading {
     padding-bottom: 10px; }
   .features .features-item .image {
@@ -120,6 +121,18 @@ button {
 
 .outro {
   margin: 2rem 0; }
+
+.learn-more {
+  background: lightpink;
+  text-align: center; }
+  .learn-more .small-heading {
+    padding: 10px 0; }
+  .learn-more .primary-btn {
+    background: inherit;
+    margin: 10px 0;
+    border: 1px solid orangered;
+    color: orangered;
+    margin-bottom: 4rem; }
 
 .gap {
   gap: 5px; }
@@ -182,6 +195,8 @@ footer {
   padding: 10px;
   background: lightgrey;
   height: 200px; }
+  .Hero .para {
+    padding: 10px 0; }
   .Hero .primary-btn {
     margin-top: 1rem;
     font-size: 0.8rem; }
