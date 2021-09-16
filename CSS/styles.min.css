@@ -44,7 +44,8 @@ h5 {
 
 .Navbar__links {
   color: black;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  width: 8rem; }
 
 .white-text {
   color: white; }
@@ -87,7 +88,7 @@ button {
   height: 2.2rem; }
 
 .sec-btn {
-  width: 13rem;
+  width: 14rem;
   height: 2.3rem; }
 
 .gap {
@@ -133,6 +134,19 @@ button {
     border: 1px solid orangered;
     color: orangered;
     margin-bottom: 4rem; }
+
+.faqs {
+  margin-top: 5rem; }
+  .faqs .question-item {
+    margin: 1rem 0; }
+
+.notfied {
+  margin: 2rem 0; }
+
+.faq-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0; }
 
 .gap {
   gap: 5px; }
@@ -253,7 +267,7 @@ footer {
 .Navbar__ToggleShow {
   display: flex;
   flex-direction: column;
-  margin: 0 40%;
+  margin: 0 35%;
   margin-top: 3rem;
   text-align: center;
   gap: 15px; }
