@@ -1,0 +1,32 @@
+// this contains variables for colors, height, border-radius, mixins, font-sizes, etc
+
+
+$green: #00a862;
+$darker-green: #00653e;
+$dark-green: #008248;
+$light-green:#d4e9e2;
+$lighter-green:rgba(212, 233, 226, 0.33);
+$Cream :#f3f1e7;
+$grey: grey;
+$light-grey: lightgrey;
+
+.gap {
+    gap: 5px;
+}
+
+.gap-x {
+    gap: 1rem;
+}
+
+.gap-xx {
+    gap: 2rem;
+}
+
+.gap-xxx {
+    gap: 4rem;
+}
+
+/* image */
+.intro-image {
+    width: 7rem;
+}

@@ -1,0 +1,34 @@
+@import "../utils/settings";
+
+//styles that belongs to buttons
+.bar {
+    width: 25px;
+    height: 2px;
+    margin: 5px 0;
+    background: #000000;
+}
+
+.dynermall-logo {
+    width: 10rem;
+    height: 2rem;
+    background: black;
+    font-size: 1.2rem;
+}
+
+button {
+    border-radius: 15px;
+    background: orangered;
+    border: transparent;
+}
+
+.primary-btn {
+    width: 11rem;
+    height: 2.2rem;
+
+}
+
+.sec-btn {
+    width: 13rem;
+    height: 2.3rem;
+
+}

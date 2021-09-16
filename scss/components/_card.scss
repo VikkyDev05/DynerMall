@@ -1,0 +1,30 @@
+@import "../utils/settings";
+
+.features {
+    .colored {
+        background: lightpink;
+    }
+
+    .features-item {
+        padding: 10px;
+
+        .small-heading {
+            padding-bottom: 10px;
+        }
+
+        .image {
+            width: 8rem;
+        }
+
+        .features-text {
+            text-align: left;
+        }
+
+    }
+
+
+}
+
+.outro {
+    margin: 2rem 0;
+}

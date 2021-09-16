@@ -1,0 +1,44 @@
+@import "../utils/settings";
+//styles that belongs to menu
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background: white;
+    transition: top 0.3s;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    margin-bottom: 2rem;
+
+
+}
+
+.Navbar__toggle {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    align-items: flex-end;
+}
+
+.Navbar__logo {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.Navbar__items {
+    display: none;
+}
+
+.Navbar__ToggleShow {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40%;
+    margin-top: 3rem;
+    text-align: center;
+    gap: 15px;
+
+}

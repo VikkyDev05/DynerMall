@@ -1,0 +1,11 @@
+@import "../utils/settings";
+
+footer {
+    background: $dark-green;
+    padding: 10px;
+    text-align: center;
+
+    .para {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,25 @@
+@import "../utils/settings";
+//styles that belongs to header
+
+.Hero {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 10px;
+    background: $light-grey;
+    height: 200px;
+
+    .primary-btn {
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .Hero__text {
+        color: white;
+    }
+}
+
+.intro {
+    text-align: center;
+    padding: 10px;
+    margin-top: 2rem;
+}
