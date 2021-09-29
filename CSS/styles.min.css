@@ -21,7 +21,8 @@
 .para {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  font-weight: 500; }
+  font-weight: 500;
+  color: #1f1f1f; }
 
 h1,
 h2,
@@ -45,10 +46,17 @@ h5 {
 .Navbar__links {
   color: black;
   font-size: 1.1rem;
-  width: 8rem; }
+  width: 8rem;
+  font-weight: 600; }
 
 .white-text {
   color: white; }
+
+@media (min-width: 760px) {
+  .para {
+    font-size: 1.1rem; }
+  .small-heading {
+    font-size: 1.4rem; } }
 
 .gap {
   gap: 5px; }
@@ -75,12 +83,12 @@ h5 {
 .dynermall-logo {
   width: 10rem;
   height: 2rem;
-  background: black;
+  background: #1f1f1f;
   font-size: 1.2rem; }
 
 button {
   border-radius: 15px;
-  background: orangered;
+  background: #d93d00;
   border: transparent; }
 
 .primary-btn {
@@ -107,6 +115,9 @@ button {
 .intro-image {
   width: 7rem; }
 
+.features .Community {
+  height: 300px; }
+
 .features .colored {
   background: lightpink; }
 
@@ -118,7 +129,8 @@ button {
   .features .features-item .image {
     width: 8rem; }
   .features .features-item .features-text {
-    text-align: left; }
+    text-align: left;
+    max-width: 30rem; }
 
 .outro {
   margin: 2rem 0; }
@@ -148,6 +160,22 @@ button {
   width: 100%;
   bottom: 0; }
 
+@media (min-width: 760px) {
+  .features .colored {
+    background: lightpink; }
+  .features .features-item {
+    padding: 10px 40px;
+    margin: 0.5rem 0;
+    flex-direction: row-reverse;
+    justify-content: space-between; }
+    .features .features-item .small-heading {
+      padding-bottom: 10px; }
+    .features .features-item .image {
+      width: 15rem; }
+    .features .features-item .features-text {
+      text-align: left;
+      max-width: 30rem; } }
+
 .gap {
   gap: 5px; }
 
@@ -165,7 +193,7 @@ button {
   width: 7rem; }
 
 footer {
-  background: #008248;
+  background: #29854e;
   padding: 10px;
   text-align: center; }
   footer .para {
@@ -207,8 +235,10 @@ footer {
   margin-top: 5rem;
   text-align: center;
   padding: 10px;
-  background: lightgrey;
-  height: 200px; }
+  background: #1f1f1f;
+  height: 400px;
+  background: url("/assets/images/hero-img-mobile.png") no-repeat;
+  background-size: cover; }
   .Hero .para {
     padding: 10px 0; }
   .Hero .primary-btn {
@@ -217,10 +247,33 @@ footer {
   .Hero .Hero__text {
     color: white; }
 
+.business-hero {
+  margin-top: 5rem;
+  text-align: center;
+  padding: 10px;
+  background: #1f1f1f;
+  height: 400px;
+  background: url("/assets/images/hero-img-2mobile.png") no-repeat;
+  background-size: cover; }
+  .business-hero .para {
+    padding: 10px 0; }
+  .business-hero .primary-btn {
+    margin-top: 1rem;
+    font-size: 0.8rem; }
+  .business-hero .business-hero__text {
+    color: white; }
+
 .intro {
   text-align: center;
   padding: 10px;
   margin-top: 2rem; }
+
+@media (min-width: 760px) {
+  .Hero {
+    background: url("/assets/images/hero-img.png") no-repeat;
+    background-size: cover; }
+  .intro-text {
+    width: 100%; } }
 
 .gap {
   gap: 5px; }
@@ -267,10 +320,20 @@ footer {
 .Navbar__ToggleShow {
   display: flex;
   flex-direction: column;
-  margin: 0 35%;
+  margin: 0 40%;
   margin-top: 3rem;
   text-align: center;
   gap: 15px; }
+
+@media (min-width: 760px) {
+  .Navbar__items {
+    display: flex;
+    flex-direction: row;
+    right: 20px;
+    position: absolute;
+    top: 12px; }
+  .Navbar__toggle {
+    display: none; } }
 
 * {
   font-family: "DM Sans", sans-serif;

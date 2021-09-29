@@ -5,8 +5,10 @@
     margin-top: 5rem;
     text-align: center;
     padding: 10px;
-    background: $light-grey;
-    height: 200px;
+    background: $text-color;
+    height: 400px;
+    background: url("/assets/images/hero-img-mobile.png") no-repeat;
+    background-size: cover;
 
     .para {
         padding: 10px 0;
@@ -22,8 +24,42 @@
     }
 }
 
+.business-hero {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 10px;
+    background: $text-color;
+    height: 400px;
+    background: url("/assets/images/hero-img-2mobile.png") no-repeat;
+    background-size: cover;
+
+    .para {
+        padding: 10px 0;
+    }
+
+    .primary-btn {
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .business-hero__text {
+        color: white;
+    }
+}
+
 .intro {
     text-align: center;
     padding: 10px;
     margin-top: 2rem;
+}
+
+@media(min-width:760px) {
+    .Hero {
+        background: url("/assets/images/hero-img.png") no-repeat;
+        background-size: cover;
+    }
+
+    .intro-text {
+        width: 100%;
+    }
 }

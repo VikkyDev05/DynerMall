@@ -11,13 +11,13 @@
 .dynermall-logo {
     width: 10rem;
     height: 2rem;
-    background: black;
+    background: $text-color;
     font-size: 1.2rem;
 }
 
 button {
     border-radius: 15px;
-    background: orangered;
+    background: $primary-color;
     border: transparent;
 }
 

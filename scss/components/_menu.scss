@@ -36,9 +36,26 @@
 .Navbar__ToggleShow {
     display: flex;
     flex-direction: column;
-    margin: 0 35%;
+    margin: 0 40%;
     margin-top: 3rem;
     text-align: center;
     gap: 15px;
 
+}
+
+
+@media (min-width:760px) {
+    .Navbar__items {
+        display: flex;
+        flex-direction: row;
+        right: 20px;
+        position: absolute;
+        top: 12px;
+    }
+
+    .Navbar__toggle {
+        display: none;
+
+
+    }
 }
